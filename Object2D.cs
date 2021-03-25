@@ -9,13 +9,17 @@ namespace Cv6
         public abstract double Area();
         public int CompareTo(object obj)
         {
-            if(((Object2D)obj).Area() > Area())
+            if(((Object2D)obj).Area() < Area())
             {
-                return -1;
+                return 1;
+            }
+            else if(((Object2D)obj).Area() == Area())
+            {
+                return 0;
             }
             else
             {
-                return 1;
+                return -1;
             }
         }
     }
