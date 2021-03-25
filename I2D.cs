@@ -6,6 +6,6 @@ namespace Cv6
 {
     public interface I2D
     {
-        public abstract double Area();
+        double Area();
     }
 }

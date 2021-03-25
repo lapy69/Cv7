@@ -18,7 +18,7 @@ namespace Cv6
         }
         public override String ToString()
         {
-            Console.WriteLine("Square:\na = {0}\nArea = {1}", x, Area());
+            return string.Format("Square:\na = {0}\nArea = {1}", x, Area());
         }
     }
 }

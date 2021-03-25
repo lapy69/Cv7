@@ -27,7 +27,7 @@ namespace Cv6
         
         public override String ToString()
         {
-            Console.WriteLine("Triangle:\na = {0}\nb = {1}\nc = {2}\nArea = {3}", x, y, z, Area());
+            return string.Format("Triangle:\na = {0}\nb = {1}\nc = {2}\nArea = {3}", x, y, z, Area());
         }
     }
 }

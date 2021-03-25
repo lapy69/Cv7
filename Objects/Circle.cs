@@ -16,9 +16,9 @@ namespace Cv6
         {
             return Math.PI * Math.Pow(r,2);
         }
-        public override String ToString()
+        public override string ToString()
         {
-            Console.WriteLine("Circle:\nr = {0}\nArea = {1}", r, Area());
+            return string.Format("Circle:\nr = {0}\nArea = {1}", r, Area());
         }
     }
 }

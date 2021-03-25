@@ -20,7 +20,7 @@ namespace Cv6
         }
         public override String ToString()
         {
-            Console.WriteLine("Rectangle:\na = {0}\nb = {1}\nArea = {2}", x, y, Area());
+            return string.Format("Rectangle:\na = {0}\nb = {1}\nArea = {2}", x, y, Area());
         }
     }
 }
