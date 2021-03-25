@@ -41,6 +41,8 @@ namespace Cv6
             {
                 Console.Write("{0}, ", item);
             }
+
+            Console.ReadLine();
         }
     }
 }
