@@ -9,7 +9,7 @@ namespace Cv6
         static void Main(string[] args)
         {
             int[] intarray = new int[] { 1, 5, 3, 7, 9 };
-            string[] stringarray = new string[] { "item1", "item2", "item3" };
+            string[] stringarray = new string[] { "string", "int", "array" };
             Circle[] circlearray = new Circle[] { new Circle(2), new Circle(4) };
             Elipse[] elipsearray = new Elipse[] { new Elipse(2, 6), new Elipse(7, 4) };
             Rectangle[] rectanglearray = new Rectangle[] { new Rectangle(1,2), new Rectangle(4,3)};
